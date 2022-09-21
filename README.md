@@ -67,7 +67,7 @@ data = pd.concat([en_data, tr_data])
 ```
 
 ## Result
-<img src="https://i.imgur.com/orgkuXC.png" width="1000">
+<img src="https://i.imgur.com/orgkuXC.png" width="500">
 
 
 Since tweets about Gözen Holding mostly consist of news, we can see that most of them are labeled as 'Notr'. Other than that, the company seems to have a great public look.
