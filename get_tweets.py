@@ -12,7 +12,7 @@ auth = tw.OAuthHandler(API_KEY, SECRET_KEY)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tw.API(auth)
 query = 'gozen holding OR gözen holding'
-tweets = tw.Cursor(api.search_tweets, query=query, label="productMindful").items(10)
+tweets = tw.Cursor(api.search_full_archive, query=query, label="productMindful").items(10000)
 tweets_id = [tweet.id for tweet in tweets]
 
 
