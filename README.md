@@ -73,5 +73,14 @@ data = pd.concat([en_data, tr_data])
 Since tweets about Gözen Holding mostly consist of news, we can see that most of them are labeled as 'Notr'. Other than that, the company seems to have a great public look.
 
 
+## Using the .exe build
+You need to create a .env file to dist/main directory for Twitter API credentials. Your .env file should look like this.
+
+```
+API_KEY="API_KEY_HERE"
+API_SECRET="API_SECRET_HERE"
+ACCESS_TOKEN="ACCES_TOKEN_HERE"
+ACCESS_TOKEN_SECRET="ACCES_TOKEN_SECRET_HERE"
+```
 
 
